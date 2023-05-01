@@ -1,0 +1,9 @@
+#pragma once
+
+#define MATRIX_ROW_PINS { E6, B4, B5 }
+#define MATRIX_COL_PINS \
+  { F5, F6, F7, B1, B3, B2, B6, D0, D4, C6}
+
+#define DIODE_DIRECTION COL2ROW
+#define LOCKING_SUPPORT_ENABLE
+#define LOCKING_RESYNC_ENABLE
